@@ -1,0 +1,23 @@
+<?php
+return [
+    'title' => 'Workouts',
+    'training_form' => 'Add Workout',
+    'date' => 'Date',
+    'distance' => 'Distance',
+    'time' => 'Time',
+    'description' => 'Description',
+    'gear' => 'Gear',
+    'without_paddles' => 'without paddles',
+    'with_paddles' => 'with paddles',
+    'location' => 'Location',
+    'pool' => 'pool',
+    'sea' => 'sea',
+    'add' => 'Add',
+    'pace_per_100' => 'Pace/100m',
+    'projected_2500' => 'Time for 2500m',
+    'projected_3000' => 'Time for 3000m',
+    'projected_5000' => 'Time for 5000m',
+    'projected_10000' => 'Time for 10000m',
+    'delete' => 'Delete',
+    'confirm_delete' => 'Delete entry?',
+];
