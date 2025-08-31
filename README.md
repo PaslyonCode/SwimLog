@@ -12,4 +12,7 @@ You are able to:
 - see your probable time projected to 2500, 3000, 5000, 10000 m swim according to your pace. (Edit the code if you wanna change these reference points)
 - show your pace progress, selecting different filter combinations in chart section.
 
+  <img width="996" height="871" alt="2025-08-31_125944" src="https://github.com/user-attachments/assets/54f555f0-0bae-42f6-9e69-aee92619361e" />
+
+
 Don't panic, just swim.
