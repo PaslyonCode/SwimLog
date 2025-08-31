@@ -50,6 +50,14 @@ function formatTime($seconds) {
     <meta charset="UTF-8">
     <title><?= t('title') ?></title>
     <style>
+        .container {
+        max-width: 1100px; /* 🔹 Ограничение ширины */
+        margin: 0 auto;
+        padding: 20px;
+        background: #fff;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        border-radius: 6px;
+    }
         body { font-family: sans-serif; margin: 20px; }
         form { margin-bottom: 20px; }
         table { border-collapse: collapse; width: 100%; margin-top: 20px; }
@@ -87,7 +95,7 @@ function formatTime($seconds) {
     </script>
 </head>
 <body>
-
+<div class="container">
 <div style="text-align:right; margin-bottom:10px;">
     <a href="?lang=ru">🇷🇺 Русский</a> | 
     <a href="?lang=en">🇬🇧 English</a>
@@ -313,6 +321,7 @@ document.querySelectorAll('.delete-btn').forEach(btn=>{
         <p>🚀 <a href="https://github.com/PaslyonCode/SwimLog" target="_blank">GitHub: PaslyonCode/SwimLog</a></p>
     </footer>
 </div>
-
+</div>
 </body>
 </html>
+
